@@ -2,12 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import hw from "../../Assets/Projects/hw.png";
+import tms from "../../Assets/Projects/tms.png";
+import dshs from "../../Assets/Projects/dshs.png";
+import q from "../../Assets/Projects/q.png";
+import scento from "../../Assets/Projects/scento.png";
 
 function Projects() {
   return (
@@ -23,68 +22,55 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={hw}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="HealthWatch"
+              description="Over the past six years, performance has continued at an annual average of about 39% in various indicators such as sales, manpower, employment, investment, and export income. It is expected to continue to grow high in the future, which is a view of the healthcare sector
+              This means that the demand for heart and soul is increasing. The idea is
+              to develop a digital healthcare application based on artificial intelligence. The main purpose of this project is to
+              It is to provide services that improve the health of people."
+              ghLink="https://github.com/ACT-HealthWatch"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={tms}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="TooMuchSpeaker"
+              description="It is a customized schedule management and study helper service for students based on artificial intelligence and NUGU platform. It was developed using Python Flask, Native html5/CSS3, and jquery, and developed as an app using Android studio."
+              ghLink="https://github.com/lavi02/TMS"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={dshs}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Cafeteria Management System"
+              description="It is a solution for checking the number of people in School Restaurant based on facial recognition using RaspberriPi and artificial intelligence. It was developed using Rust Rocket, React.js, and Tensorflow.js, and was developed in real time using Python Tensorflow in RaspberryPi."
+              ghLink="https://github.com/lavi02/OryangBot-Cafeteria-Checker"        
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={q}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Quantum NVGate Algorithm"
+              description="A structure of trandional SWAP Gate is made by Qubit 13C in the NV-center quantum computer cannot be controlled directly, so we have to indirectly reset it using NV electron. we're going to think about the idea from karnaugh map and make a circuit that can be controlled by NV electron and create gate using a microwave pulse. The code is written for change the state of nuclear qubit, substituting Rz Gates and Rx Gates to arbitrary gate and apply random microwave to check whether it can replace between Rz Gates and Rx Gates."
+              ghLink="https://github.com/zorocrit/qhackathon-2023"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={scento}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
+              title="Freelance Works"
+              description="Until now, I have been doing various freelance work, including developing corporate backend, and recently, I am studying frontend and trying to make freelance work possible with full stack development. I am currently studying Rust and working as a backend developer for a software development company."
               ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
         </Row>

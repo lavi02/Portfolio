@@ -4,10 +4,8 @@ import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaBlog } from "react-icons/fa";
 
 function Home2() {
   return (
@@ -19,36 +17,52 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I love programming and I value adapting to change based on new skills and experiences. 🤷‍♂️
               <br />
-              <br />I am fluent in classics like
+              <br />I am fluent in 
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> Python, Typescript and Go. </b>
               </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
+                <b className="purple">Backend Technologies and Data Science </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Blockchain.
+                  Cyber Security.
+                </b> 
+              </i>
+              <br />
+              <br />
+              I was in CTF Team named <b className="purple">Team RGBSec</b> and I have also done some projects related to{" "}
+              <i>
+                <b className="purple">
+                  Web Cyber Security and Reverse Engineering.
+                </b>
+              </i>
+              <br />
+              <br />
+              and I like to learn about new technologies, what problems are they solving and How can I use them to build better and scalable products.
+              I often try ToyProject  and I am currently working on a project related to{" "}
+              <i>
+                <b className="purple">
+                  POS system for Better Client Management.
                 </b>
               </i>
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              with <b className="purple">Rust</b> and
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  Game Development and Programming
                 </b>
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> Unity3D.</b>
               </i>
             </p>
           </Col>
@@ -59,7 +73,7 @@ function Home2() {
           </Col>
         </Row>
         <Row>
-          <Col md={12} className="home-about-social">
+          <Col md={12} className="purple">
             <h1>FIND ME ON</h1>
             <p>
               Feel free to <span className="purple">connect </span>with me
@@ -67,7 +81,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/lavi02"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,17 +91,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/hoil-jeong-7b3b33276/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,12 +101,12 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://velog.io/@lavi02"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <AiFillInstagram />
+                  <FaBlog />
                 </a>
               </li>
             </ul>
