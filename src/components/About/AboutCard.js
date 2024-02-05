@@ -10,22 +10,22 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Software Engineer </span>
             from <span className="purple"> Seoul, Korea.</span>
-            <br /> I am a junior student pursuing an Computing Science at Hanyang Univ. ERICA.
+            <br /> I am a junior student pursuing an Computing Science at Hanyang University.
             <br />
-            I am currently employed as a Backend developer.
+            I am currently employed as a Fullstack developer at <span className="purple">Fleetune</span>
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Akatsuki!@Rx
+              <ImPointRight /> World of Warcraft
             </li>
             <li className="about-activity">
-              <ImPointRight /> Counter Strike: Global Offensive
+              <ImPointRight /> Lost Ark
             </li>
             <li className="about-activity">
-              <ImPointRight /> MapleStory
+              <ImPointRight /> Chess.com
             </li>
           </ul>
 
